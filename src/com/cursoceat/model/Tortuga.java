@@ -14,6 +14,20 @@ public class Tortuga extends Animal implements Patas {
 
 	}
 
+	public String getTipoCaparazon() {
+		return tipoCaparazon;
+	}
+
+	public void setTipoCaparazon(String tipoCaparazon) {
+		this.tipoCaparazon = tipoCaparazon;
+	}
+
+	@Override
+	public void numPatas() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 

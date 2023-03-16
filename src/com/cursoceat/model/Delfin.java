@@ -22,10 +22,12 @@ public void setLongAletas(double longAletas) {
 	this.longAletas = longAletas;
 }
 
+
+
 @Override
 public String toString() {
-	super.toString();
-	return "Delfin [longitud aletas=" + longAletas + "]";
+	return "Delfin [longAletas=" + longAletas + ", nombre=" + nombre + ", peso=" + peso + ", especie=" + especie
+			+ ", idTemp=" + idTemp + "]";
 }
 
 @Override
