@@ -1,6 +1,6 @@
 package com.cursoceat.model;
 
-public class Gato extends Animal implements Sonido,Patas {
+public class Gato extends Animal implements Sonido,Garras {
 
 	
 	private int numBigotes;
@@ -14,6 +14,11 @@ public Gato(String nombre, double peso, String especie, int numBigotes, String c
 		this.numBigotes = numBigotes;
 		this.color = color;
 	}
+
+
+public Gato() {
+	
+}
 
 
 public int getNumBigotes() {
@@ -61,6 +66,13 @@ public void timbre() {
 public String toString() {
 	super.toString();
 	return "Gato [numero de bigotes=" + numBigotes + ", color=" + color + "]";
+}
+
+
+@Override
+public void largo() {
+	System.out.println("Las garras tienen un max de 1cm");
+	
 }
 	
 	

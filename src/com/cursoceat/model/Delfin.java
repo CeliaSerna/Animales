@@ -42,6 +42,12 @@ System.out.println("agudo");
 	
 }
 
+@Override
+public void durmiendo() {
+
+	System.out.println("grugrugru");
+}
+
 
 
 
